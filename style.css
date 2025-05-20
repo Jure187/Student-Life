@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-image: url(./images/banner.png);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-pocetak {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  color: white;
+}
+.header-pocetak ul {
+  list-style: none;
+}
+.header-pocetak li {
+  display: inline;
+  margin-left: 40px;
+}
+.header-pocetak a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+.header-kraj {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.header-kraj h1 {
+  margin-bottom: 30px;
+}
+.header-kraj button {
+  margin-top: 30px;
+  padding: 10px 70px;
+  text-align: center;
+  background: unset;
+  border: 2px solid white;
+  color: white;
+}
+.section-pocetak {
+  padding: 50px 0px;
+}
+.section-pocetak .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-pocetak h1 {
+  margin-bottom: 10px;
+}
+.section-pocetak p {
+  color: silver;
+  padding-bottom: 20px;
+}
+.kutije-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.kutija1 {
+  flex: 1;
+  background-color: antiquewhite;
+  width: 30%;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+.kutija1 h3 {
+  margin-bottom: 20px;
+}
+.kutija1 p {
+  color: silver;
+}
+
+.section-sredina1 {
+  padding: 50px 0px;
+}
+.section-sredina1 .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-sredina1 h1 {
+  margin-bottom: 10px;
+}
+.section-sredina1 p {
+  margin-bottom: 40px;
+  color: silver;
+}
+.sredina1-slike3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sredina1-slika1 img {
+  border-radius: 10px;
+  width: 100%;
+}
+.section-sredina2 {
+  padding: 50px 0px;
+}
+.section-sredina2 .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-sredina2 p {
+  color: silver;
+  margin-bottom: 40px;
+}
+.sredina2-kutije3 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.sredina2-kutija1 {
+  text-align: left;
+}
+.sredina2-kutija1 img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.sredina2-kutija1 h3 {
+  margin-bottom: 10px;
+}
+.section-kraj {
+  padding: 0px 0px;
+}
+.section-kraj .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.section-kraj p {
+  color: silver;
+  padding-bottom: 20px;
+}
+.kraj-kutije2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.kraj-kutija1 {
+  background-color: antiquewhite;
+  padding: 20px;
+  text-align: left;
+  border-radius: 10px;
+}
+.kraj-kutija1 h3 {
+  margin-top: 20px;
+}
+.kraj-kutija1 img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.img-p {
+  display: flex;
+}
+.section-kraj2 .container {
+  background-image: url(./images/banner2.jpg);
+  text-align: center;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-kraj2 {
+  padding: 50px 0px;
+  color: white;
+  height: 300px;
+}
+.section-kraj2 button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: unset;
+  color: white;
+  border: 2px solid white;
+}
+footer {
+  height: 150px;
+  text-align: center;
+  margin-top: 20px;
+}
+footer .container {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: silver;
+  margin-top: 20px;
+}
+.container2 {
+  width: 50%;
+  margin: auto;
+}
+@media (max-width: 985px) {
+  .container .header-pocetak {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .kutije-3 {
+    flex-direction: column;
+  }
+  .kutija1 {
+    width: 100%;
+  }
+  .sredina1-slike3 {
+    flex-direction: column;
+  }
+  .sredina2-kutije3 {
+    flex-direction: column;
+  }
+  .kraj-kutije2 {
+    flex-direction: column;
+  }
+}
